@@ -1,8 +1,10 @@
-// insert sick beats here if u want
-radio.onReceivedNumber(function (receivedNumber) {
+input.onButtonPressed(Button.A, function () {
     if (A_antiExplode == 0) {
         A_antiExplode += 1
     }
+})
+radio.onReceivedValue(function (name, value) {
+    score += value
 })
 let A_antiExplode = 0
 radio.setGroup(143)
