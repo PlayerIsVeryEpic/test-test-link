@@ -9,9 +9,9 @@ radio.onReceivedValue(function (name, value) {
 let A_antiExplode = 0
 radio.setGroup(143)
 // set this to length of 1 attempt
-let ROUNDLENGTH = 10
+let ROUNDLENGTH = 30
 // set this to break time between "A" press and game start
-let PAUSE = 10
+let PAUSE = 3
 let time = 0
 let globalTime = 0
 A_antiExplode = 0
